@@ -1,0 +1,5 @@
+{
+  "explicador_python": "## Explicación\n\nUna lista permite guardar varios valores en orden.\n\n```python\nnumeros = [1, 2, 3]\nprint(numeros[0])\n```\n\nError frecuente: intentar acceder a una posición que no existe.",
+  "disenador_practica": "## Práctica\n\nCrea una función que reciba una lista de números y devuelva el mayor.\n\nEntrada de ejemplo: `[3, 8, 2]`\n\nSalida esperada: `8`\n\nCriterios de aceptación:\n- recibe una lista no vacía;\n- devuelve un número;\n- funciona con números negativos.\n\nPista: conserva el mayor valor encontrado hasta el momento.",
+  "revisor_python": "# Guía de estudio: listas\n\n## Explicación\n\nUna lista permite guardar varios valores en orden.\n\n```python\nnumeros = [1, 2, 3]\nprint(numeros[0])\n```\n\nError frecuente: intentar acceder a una posición que no existe.\n\n## Práctica\n\nCrea una función que reciba una lista no vacía de números y devuelva el mayor.\n\nCriterios de aceptación:\n- recibe una lista no vacía;\n- devuelve un número;\n- funciona con números negativos.\n\nPista: conserva el mayor valor encontrado hasta el momento.\n\n## Revisión\n\n- Se precisó que la lista de entrada no puede estar vacía."
+}

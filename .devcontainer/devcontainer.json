@@ -1,0 +1,22 @@
+{
+  "name": "Agentes de IA con Python",
+  "image": "ghcr.io/hbtn-edu/ai-agents-python:0.4.0",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "developer",
+  "updateRemoteUserUID": true,
+  "runArgs": [
+    "--env-file",
+    "${localWorkspaceFolder}/.env"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  }
+}
